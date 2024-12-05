@@ -1,0 +1,71 @@
+h1#site-title {
+    font-size: 72px;
+    color: #807f17;
+    font-family: helvetica;
+}
+
+h1#article-title {
+    font-size: 48px;
+    color: #807f17;
+    font-family: helvetica;    
+}
+
+a {
+    font-family: helvetica;
+    font-size: larger;
+    color: #807f17;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure img{
+    border-color:aqua;
+}
+
+figure.main-image {
+      float: right;    
+}
+
+figure.section-image {
+float: right;
+background: #807f17;
+color: white;
+}
+
+figure caption {
+    color: #807f17;
+    font-family: helvetica;
+    color: white;
+}
+
+p {
+    font-family: helvetica;
+}
+p img {
+    float: right;
+}
+
+a{
+    font-weight: bold;
+    color:black;
+}
+
+@media screen and (min-width: 376px){}
+    ul li a {
+        display:flex;
+        justify-content: center;
+    
+}
+
+ul li a {
+    text-decoration: dotted;
+    font-size: larger;
+    color: #807f17;
+}
+
+ul li a:hover{
+text-decoration: dotted;
+}
