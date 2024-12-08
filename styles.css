@@ -8,14 +8,15 @@ html {
     }
     
     figure {
-      border: 6px solid #dc143c;
+      border: 10px solid black;
       padding: 100px;
     }
     
     figure img {
-        max-width: 120%;
+        max-width: 100%;
         height: auto;
       margin-bottom: 1.25em;
+    
     }
     
     figcaption {
