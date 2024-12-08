@@ -37,7 +37,7 @@ html {
         
     }
 
-    @media screen and (min-width: 376px){
+    @media screen and (min-width: 376px){}
       ul li a {
           display:flex;
           justify-content: left;
