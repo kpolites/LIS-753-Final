@@ -1,71 +1,42 @@
-h1#site-title {
-    font-size: 72px;
+h1 {
     color: #807f17;
     font-family: helvetica;
-}
-
-h1#article-title {
-    font-size: 48px;
-    color: #807f17;
-    font-family: helvetica;    
-}
-
-a {
-    font-family: helvetica;
-    font-size: larger;
-    color: #807f17;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-figure img{
-    border-color:aqua;
-}
-
-figure.main-image {
-      float: right;    
-}
-
-figure.section-image {
-float: right;
-background: #807f17;
-color: white;
-}
-
-figure caption {
+  }
+  
+  figure {
+    border: 10px solid black;
+    padding: 50px;
+  }
+  
+  figure img {
+      max-width: 100%;
+      height: auto;
+    margin-bottom: 1.25em;
+  }
+  
+  figcaption {
     color: #807f17;
     font-family: helvetica;
-    color: white;
-}
-
-p {
+  }
+  p{
+    background-color: #afae26;
     font-family: helvetica;
-}
-p img {
+    }
+  
+  p img {
     float: right;
-}
-
-a{
-    font-weight: bold;
-    color:black;
-}
-
-@media screen and (min-width: 376px){}
-    ul li a {
-        display:flex;
-        justify-content: center;
-    
-}
-
-ul li a {
-    text-decoration: dotted;
-    font-size: larger;
-    color: #807f17;
-}
-
-ul li a:hover{
-text-decoration: dotted;
-}
+    max-width: 80%;
+    height: auto;
+    margin-left: 75px;
+    margin-bottom: 45px;
+      
+  }
+  
+  body.dark-mode {
+    background: #010101;
+    color: #ffffff;
+  }
+  
+  body.dark-mode button {
+    background-color: #ffffff;
+  }
