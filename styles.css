@@ -8,7 +8,7 @@ html {
     }
     
     figure {
-      border: 10px solid black;
+      border: 6px solid #dc143c;
       padding: 100px;
     }
     
@@ -39,8 +39,8 @@ html {
   footer#page-footer{
      font-family: 'Times New Roman', Times, serif;
       font-style: italic;
-      border-top: 2px solid #9932cc;
-      border-bottom: 2px solid #9932cc;
+      border-top: 2px solid #dc143c;
+      border-bottom: 2px solid #dc143c;
      
   }
     
