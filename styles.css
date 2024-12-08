@@ -1,7 +1,14 @@
 html {
     background-color: LightGrey;
   }
-  
+
+  h1#site-title {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    background-color: #dc143c;
+    
   h1 {
       color: #dc143c;
       font-family: helvetica;
