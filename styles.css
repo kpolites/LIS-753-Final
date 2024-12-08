@@ -56,8 +56,7 @@ html {
           display: flex;
           justify-content: center;
       }
-      
-  }
+    }
   
   ul li a {
       text-decoration: dotted;
