@@ -63,7 +63,7 @@ html {
   }
     
     body.dark-mode {
-      background: black;
+      background: #010101;
       color: #ffffff;
     }
     
