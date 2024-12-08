@@ -57,6 +57,13 @@ html {
           justify-content: center;
       }
     }
+
+    @media screen and (prefers-color-scheme: light) {
+      body {
+        background-color: white;
+        color: black;
+      }
+    }
   
   ul li a {
       text-decoration: dotted;
@@ -76,5 +83,6 @@ html {
   }
 
   body {
-    color-scheme: light dark;
+    background-color: black;
+    color: white;
   }
