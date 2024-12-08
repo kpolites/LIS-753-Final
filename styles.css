@@ -74,8 +74,4 @@ html {
       font-style: italic;
       border-top: 2px solid #dc143c;
       border-bottom: 2px solid #dc143c;
-     
-      function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-      }
+  }
