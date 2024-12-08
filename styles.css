@@ -74,3 +74,12 @@ html {
       border-top: 2px solid #dc143c;
       border-bottom: 2px solid #dc143c;
   }
+
+  body.dark-mode {
+    background: #010101;
+    color: #ffffff;
+  }
+  
+  body.dark-mode button {
+    background-color: #ffffff;
+  }
