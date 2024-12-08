@@ -9,7 +9,7 @@ html {
     font-family: helvetica;
     background-color: #dc143c;
   }
-  
+
   h1 {
       color: #dc143c;
       font-family: helvetica;
@@ -49,6 +49,15 @@ html {
       ul li a {
           display:flex;
           justify-content: left;
+          {
+
+    @media screen and (min-width: 376px){}
+      body{
+          display: flex;
+          justify-content: center;
+      }
+
+  
       
   }
   
