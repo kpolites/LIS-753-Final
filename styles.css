@@ -36,6 +36,23 @@ html {
       margin-bottom: 45px;
         
     }
+
+    @media screen and (min-width: 376px){
+      ul li a {
+          display:flex;
+          justify-content: left;
+      
+  }
+  
+  ul li a {
+      text-decoration: dotted;
+      font-size: larger;
+      color: #dc143c;
+  }
+  
+  ul li a:hover{
+  text-decoration: dotted;
+  }
   
   footer#page-footer{
      font-family: 'Times New Roman', Times, serif;
