@@ -14,7 +14,7 @@ html {
     
     figure img {
         max-width: 100%;
-        height: 100%;
+        height: auto;
       margin-bottom: 1.25em;
     }
     
@@ -29,8 +29,8 @@ html {
     
     p img {
       float: right;
-      max-width: 50%;
-      height: 50%;
+      max-width: 80%;
+      height: auto;
       margin-left: 75px;
       margin-bottom: 45px;
         
