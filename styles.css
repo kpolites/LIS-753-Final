@@ -1,42 +1,54 @@
-h1 {
-    color: #9932cc;
-    font-family: helvetica;
+html {
+    background-color: LightGrey;
   }
   
-  figure {
-    border: 10px solid black;
-    padding: 50px;
-  }
-  
-  figure img {
-      max-width: 100%;
+  h1 {
+      color: #9932cc;
+      font-family: helvetica;
+    }
+    
+    figure {
+      border: 10px solid black;
+      padding: 100px;
+    }
+    
+    figure img {
+        max-width: 100%;
+        height: auto;
+      margin-bottom: 1.25em;
+    }
+    
+    figcaption {
+      color: #9932cc;
+      font-family: helvetica;
+    }
+    p{
+      background-color: none;
+      font-family: helvetica;
+      }
+    
+    p img {
+      float: right;
+      max-width: 80%;
       height: auto;
-    margin-bottom: 1.25em;
-  }
-  
-  figcaption {
-    color: #9932cc;
-    font-family: helvetica;
-  }
-  p{
-    background-color: none;
-    font-family: helvetica;
+      margin-left: 75px;
+      margin-bottom: 45px;
+        
     }
   
-  p img {
-    float: right;
-    max-width: 80%;
-    height: auto;
-    margin-left: 75px;
-    margin-bottom: 45px;
-      
+  footer#page-footer{
+     font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      border-top: 2px solid #9932cc;
+      border-bottom: 2px solid #9932cc;
+     
   }
-  
-  body.dark-mode {
-    background: #010101;
-    color: #ffffff;
-  }
-  
-  body.dark-mode button {
-    background-color: #ffffff;
-  }
+    
+    body.dark-mode {
+      background: #010101;
+      color: #ffffff;
+    }
+    
+    body.dark-mode button {
+      background-color: #ffffff;
+    }
