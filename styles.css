@@ -49,15 +49,13 @@ html {
       ul li a {
           display:flex;
           justify-content: left;
-          {
+  
 
     @media screen and (min-width: 376px){}
       body{
           display: flex;
           justify-content: center;
       }
-
-  
       
   }
   
