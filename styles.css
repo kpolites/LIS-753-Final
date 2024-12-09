@@ -3,10 +3,10 @@ html {
   }
 
   h1#site-title {
+    color: white;
     font-size: 80px;
     text-align: center;
     font-family: helvetica;
-    color: white;
     background-color: #dc143c;
   }
 
