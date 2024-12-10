@@ -2,11 +2,6 @@ html {
   background-color: LightGrey;
 }
 
-a#article-title {
-  font-family: helvetica;
-  color:#dc143c;
-}
-
 h1#site-title {
   font-size: 80px;
   text-align: center;
